@@ -1,5 +1,5 @@
-(function () {
-  const ModelModule = (function () {
+(() => {
+  const ModelModule = (() => {
     function Person(name) {
       this.name = name;
     }
