@@ -1,0 +1,23 @@
+{
+  "name": "javascript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarbull/playground.git"
+  },
+  "keywords": [
+    "javascript",
+    "playground"
+  ],
+  "author": "Cezar Sirbu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarbull/playground/issues"
+  },
+  "homepage": "https://github.com/sarbull/playground#readme"
+}
