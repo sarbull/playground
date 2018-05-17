@@ -1,5 +1,25 @@
-const a = {a:1, b:2, c:3};
+(function () {
+  const ModelModule = (function () {
+    function Person(name) {
+      this.name = name;
+    }
 
-const {b, c} = a;
+    Person.prototype.getName = function () {
+      return this.name;
+    };
 
-console.log(b, c);
+    const p = new Person('Cezar Sirbu');
+    console.log(p.getName());
+
+    return {
+      Person: Person
+    };
+  })();
+
+
+  (function () {
+    const p = new ModelModule.Person('Cezar Sirbu 2');
+
+    console.log(p.getName());
+  })();
+})();
